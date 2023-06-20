@@ -1,14 +1,14 @@
-<html>
+<!DOCTYPE html>
     <head>
-        <title> Новости дня </title>
+        <title>Новости дня</title>
         <link rel="stylesheet" href="style.css">
     </head>
-    <body>
+    <body> 
         <header>
-            <h1>Новости</h1>
+            <div><h1> Новости </h1></div>
         </header>
-
-        <section class="News">
+       
+        <section class="News">            
             <article>
                 <a href="#">
                     <h2> Кофе по утрам полезно, правда иди миф?</h2>
@@ -16,10 +16,10 @@
                 <div class="article-meta">
                     Опубликовал <a href="#"> Юлия Дохова</a> 20.06.2023
                 </div>
-                <img src="https://images.unsplash.com/photo-1618111415112-793c80d2fb3b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1374&q=80">
+                <img src="https://media.istockphoto.com/id/1400194993/ru/фото/каппучино-искусства.jpg?s=1024x1024&w=is&k=20&c=kk_eZQnvmB3i0Kf317aLA3LyE5AjFeclK3ascJWqerk=">
                 <p> О вреде кофе натощак уже было сказано многое – проблемы с пищеварительной системой, негативное влияние на нервную систему, нарушение гормонального фона. Но все это – лишь при регулярном употреблении кофе, когда с него начинается почти каждый день. </p>
             </article>
-
+          
             <article>
                 <a href="#">
                     <h2> Милие подарки на свадьбу </h2>
@@ -30,7 +30,7 @@
                 <img src="https://images.unsplash.com/photo-1521478706270-f2e33c203d95?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MnwxMDU2NDUzM3x8ZW58MHx8fHx8&auto=format&fit=crop&w=400&q=60">
                 <p> Что подарить на свадьбу близким людям? 10 самых милых идей для подарков </p>
             </article>
-
+        
             <article>
                 <a href="#">
                     <h2> Пляжный сезон </h2>
@@ -41,7 +41,7 @@
                 <img src="https://images.unsplash.com/photo-1683122397672-14c6ff3eb008?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8M3wxMDU2NDUzM3x8ZW58MHx8fHx8&auto=format&fit=crop&w=400&q=60">
                 <p> Начался пляжный сезон и многие хотят чувствовать себя в безопасности во время отпуска. Так что же взять с собой в отпуск? </p>
             </article>
-
+       
             <article>
                 <a href="#">
                     <h2> Милые пушистики </h2>
@@ -50,8 +50,11 @@
                     Опубликовал <a href="#"> Юлия Дохова</a> 20.06.2023
                 </div>
                 <img src="https://images.unsplash.com/photo-1591097139640-2d91ddb8a9e3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=446&q=80">
-                <p> Учанные доказали, что милее этой новости Вы сегодня ничего не увидете. И да, это так!!! </p>
+                <p> Ученные доказали, что милее этой новости Вы сегодня ничего не увидете. И да, это так!!! </p>
             </article>
+        
+           
+        
             <article>
                 <a href="#">
                     <h2> Весна-лето 2023 </h2>
@@ -62,8 +65,9 @@
                 <img src="https://images.unsplash.com/photo-1687235453893-eea4323369ff?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80">
                 <p> Новые модные тренды сезона. Каких дизайнеров предпочитают знаменитости? </p>
             </article>
-            
         </section>
+    
+            
 
         <footer>
             <div class="links">
@@ -72,8 +76,95 @@
                 <a href="#">О нас</a>
                 <a href="#">Реклама</a>
             </div>
-            <div class="copyright">Copyright ©️Новости дня 2023</div>
-
+            <div class="coperight"> Сopyright ©️Новости дня 2023</div>
         </footer>
     </body>
 </html>
+
+
+<style>
+    body{
+        margin: 0;
+        padding: 0;
+    }
+
+    header {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 550px;
+        background-color: rgb(113, 95, 173);
+        background: url(https://images.unsplash.com/photo-1687175452114-3a4fc0664df3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80);
+        background-size: cover;
+    }
+    h1 {
+        color: black;
+        font-size: 5.5rem;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    footer {
+        padding-top: 20px;
+        padding-bottom: 50px;
+        text-align: center;
+    }
+    footer.links {
+        margin-bottom: 45px;
+    }
+    footer.links>a {
+        color: black;
+        padding: 0.25px;
+        font-size: 13px;
+        font-weight: 600;
+        letter-spacing: .1rem;
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+    .copyright {
+        color: rgb(38, 35, 99);
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .news {
+        background-color: rgb(113, 95, 173);
+        padding: 50px 0 32px;
+    }
+    article {
+        width: 768px;
+        margin: 0 auto 32px;
+        padding: 6px 15px;
+        border-bottom: 1px solid rgb(113, 95, 173);
+    }
+    article a{
+        color: black;
+        text-decoration: none;
+    }
+    article a:hover{
+        color: lightskyblue;
+    }
+    article h2{
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        margin-bottom: 5px;
+    }
+    .article-meta{
+        color: rgb(113, 123, 133);
+        margin-bottom: 5px;
+    }
+    article img{
+        width: 100%;
+        height: 400px;
+        object-fit: cover;
+    }
+
+    section :nth-child(even){
+        background-color: rgb(250, 194, 229);
+    }
+    
+
+    
+    
+
+
+
+
+    
+
+</style> 
